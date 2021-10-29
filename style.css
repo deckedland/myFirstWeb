@@ -1,0 +1,305 @@
+body { 
+    margin: 0px; 
+    padding: 0px; 
+    font-family: museosans, helvetica, "微软正黑体", "宋体", sans-serif;
+    font-weight: 300; 
+    background-color: #f6f6f6; 
+}
+
+/*----------StartPage----------*/
+
+#startPage { 
+    display: inline-block; 
+    width: 100%; 
+    text-align: center;
+    background-color: #f6f6f6;
+}
+#startPageContent { 
+    display: inline-block; 
+    width: 100%; 
+}
+.startPic { 
+    display: inline-block; 
+    height: 155px; 
+    width: 152px; 
+    overflow: hidden; 
+    background: url("image/startlogo.png") center no-repeat;  
+    padding-bottom: 3px; 
+    z-index: 10;
+}
+h1 { 
+    display: inline-block; 
+    padding: 0px; 
+    margin: 0px; 
+    color: #000; 
+    font-weight: 100; 
+    font-size: 38px;
+    opacity: 0.8;
+    line-height: 40px; 
+    width: 100%; 
+    padding-bottom: 5px;
+}
+#scrollDown { 
+    display: inline-block;
+    width: 100%;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px; 
+    text-align: center; 
+    cursor: pointer; 
+    opacity: 0.6;  
+}
+.scrollDownPic {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url(image/doubledown.svg) center no-repeat;
+}
+.scrollDownPic:hover, #scrollDown:hover{
+    opacity: 1;
+}
+#goTop { 
+    position: fixed;  
+    bottom: 40px; 
+    right: 10px; 
+    width: 36px; 
+    height: 72px; 
+    color: #fff; 
+    text-align: center;
+    opacity: 0.7;
+    z-index: 10; 
+}
+.divider { 
+    display: inline-block; 
+    height: 2px;
+    width: 16px;
+    opacity: 0.6;
+    border-bottom: 2px solid black;  
+}
+.info {
+    display: inline-block; 
+    height: 30px; 
+    width: 32px;  
+    background: url("image/info.svg") no-repeat;
+    cursor: pointer; 
+    vertical-align: middle; 
+}
+.gotop { 
+    display: inline-block; 
+    height: 32px; 
+    width: 32px;  
+    background: url("image/gotop.svg") no-repeat;
+    cursor: pointer; 
+    vertical-align: middle; 
+}
+
+/*----------ContentPage----------*/
+
+#timeline {
+    width: 100%; 
+    padding-top: 60px; 
+    padding-bottom: 30px; 
+}
+.yearsBlock { 
+    height: 25px; 
+    width: 100%; 
+    color: #f6f6f6; 
+    font-family: museosans, helvetica, "微软正黑体", "宋体", sans-serif; 
+    font-weight: 300; 
+}
+.date { 
+    display: inline-block; 
+    float: left; 
+    width: 72px; 
+    padding-top: 10px; 
+    padding-left: 10px; 
+    border-top: 2px solid rgba(0, 0, 0, 0.3); 
+}
+.dateNum { 
+    color: rgb(0, 0, 0); 
+    font-size: 22px; 
+    line-height: 26px; 
+    opacity: 0.8; 
+}
+.dateY { 
+    color: rgb(0, 0, 0); 
+    font-size: 14px; 
+    opacity: 0.8; 
+}
+#sec1, #sec2，#sec3, #sec4, #sec5, #sec6, #sec7, #sec8, #sec9 { 
+    height: auto;
+    width: 100%;
+}
+.con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, #con9 {
+    color: rgb(0, 0, 0);
+    font-family: museosans, helvetica, "微软正黑体", "宋体", sans-serif;
+    font-size: 16px;
+    font-weight: 300; 
+    text-align: center;
+}
+/*----sec1----*/
+.img1 {
+    display: inline-block;
+    height: 100%; 
+    width: 100%; 
+    opacity: 0.9;
+}
+.para1 {
+    color: rgb(0, 0, 0); 
+    font-size: 16px; 
+    line-height: 18px; 
+    opacity: 0.9;
+}
+/*----sec2----*/
+.img2 {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    float: right;
+    margin-right: 10px;
+    height: 300px; 
+    width: 600px;
+    opacity: 0.9;
+}
+.para2 {
+    margin-left: 100px;
+    color: rgb(0, 0, 0); 
+    font-size: 16px; 
+    line-height: 20px; 
+    opacity: 0.9;
+}
+/*------sec4------*/
+.img4 {
+    margin-top: 25px;
+    margin-left: 70px;
+}
+.img4-1, .img4-2, .img4-3, .img4-4 {
+    float: left;
+    width: 150px;
+    height: 400px;
+    margin: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+    overflow: hidden;
+}
+.intro1, .intro2, .intro3, .intro4 {
+    width: 150px;
+    height: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+.img4-1:hover , .img4-2:hover , .img4-3:hover , .img4-4:hover {
+    border: 1px solid rgb(0, 0, 0, 0.7);
+}
+
+/*-----sec8----*/
+
+.card-con {
+    width: 300px;
+    background-color: #f6f6f6;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 200px;
+}
+.card-text {
+    text-align: center;
+    padding: 10px 20px;
+} 
+.con8-1 {
+    position: relative;
+    margin: 10px 400px;
+}
+
+/*------sec9------*/
+
+.text-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f6f6f6ce;
+
+}
+.text {
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.con8-1:hover .text-box {
+    opacity: 1;
+    cursor: auto;
+}
+/* 幻灯片 */
+.slide-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slide {
+    display:none;
+}
+#sec9 img {
+    border-radius: 8px;
+    opacity: 0.8;
+    border: 1px solid #ddd;
+}
+.pre, .nex {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 0 3px 3px 0;
+}
+.nex {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.pre:hover, .nex:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.dot {
+    cursor:pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.para9 {
+    margin: 25px;
+    color: rgb(0, 0, 0); 
+    font-size: 20px; 
+    line-height: 22px; 
+    opacity: 0.9;
+    text-align: center;
+}
+/*-----Animation-----*/
+.slide {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+@keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+}
