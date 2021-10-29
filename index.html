@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!--测试测试-->
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -41,16 +41,7 @@
 		</div>
 		<!--Decoraton-->
 		<img src="image/dero1.png" style="position: absolute; left: 1%; top: 2%;">
-		<audio autoplay="autoplay" loop="loop" id="vid"><source src="audio/武汉大学校歌.mp3"></audio>
-		<script type="text/javascript">
-			window.onload = function(){
-					 setInterval("toggleSound()",100);
-				}
-			function toggleSound() {
-						var music = document.getElementById("vid"); 
-						music.play();   
-				}
-		</script>
+		<audio controls auto="auto" loop="loop"><source src="audio/武汉大学校歌.mp3"></audio>
 	</div>
 
 	<!--Content Page-->
@@ -66,7 +57,7 @@
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 			<div class="con1">
 				<div class="img1">
-					<img src="image/img1.png" alt="《设立自强学堂片》" style="border-radius: 8px;">
+					<img src="image/img1.png" alt="《设立自强学堂片》">
 				</div>
 				<div class="para1">
 					<span>1893年11月29日，湖广总督张之洞向清朝光绪帝上奏《设立自强学堂片》。</span><br/>
@@ -182,7 +173,7 @@
 			<div class="yearsBlock">
 				<div class="date">
 					<span class="dateNum">抗战时期</span>
-
+					<span class="dateY">年</span>
 				</div>
 			</div>
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
@@ -215,8 +206,7 @@
 				</div>
 				<div class="para6">
 					<img src="image/img11.png" alt="解放军进入武汉市区" ><br />
-					<span style="font-size: 14px; text-align: center;">(1949年5月，解放军进入武汉市区)</span><!--加了括号 -->
-					<br />
+					<span style="font-size: 14px; text-align: center;">(1949年5月，解放军进入武汉市区)</span>
 					<span>1949年武汉解放，国立武汉大学被中国共产党接管并更名为武汉大学，继续办学。</span>
 				</div>
 			</div>
@@ -228,6 +218,7 @@
 			<div class="yearsBlock">
 				<div class="date">
 					<span class="dateNum">新中国成立后</span>
+					<span class="dateY">年</span>
 				</div>
 			</div>
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
@@ -250,6 +241,7 @@
 			<div class="yearsBlock">
 				<div class="date">
 					<span class="dateNum">21世纪</span>
+					<span class="dateY">后</span>
 				</div>
 			</div>
 			<div class="yearsBlock"></div>
@@ -263,19 +255,21 @@
 					<span>国务院总理温家宝参观学校自主创新成果展</span>
 					</div>
 				  </div>
-				<div class="card-con">
+				<div class="card-con" style="position: relative; top: -290px; left: 550px;">
 					<img src="image/img8-3.png" alt="习近平" width="300px" height="200px">
 					<div class="card-text">
 					<span>习近平总书记考察武汉大学杂交水稻实验基地</span>
 					</div>
 				</div>
-				<div class="card-con">
+				<div class="card-con" style="position: relative; top: -290px; left: 550px;">
 					<img src="image/img8-4.png" alt="特蕾莎·梅" width="300px" height="200px">
 					<div class="card-text">
-					<span>英国首相特雷莎·梅对武汉大学进行访问</span>
+					<span>英国首相特雷莎·梅访问武汉大学</span>
 					</div>
 				</div>
-				<div style="width: 100%; height: 400px;"></div>
+				<div style="position: relative; top: -200px; text-align: center;">
+					领导对武大的重视属属
+				</div>
 				<div class="con8-1">
 					<img src="image/img8-1.png" alt="《Science》武大125周年校庆版" class="img8-1">
 					<div class="text-box">
@@ -286,6 +280,9 @@
 						</div>
 					</div>
 				</div>
+					<img src="image/img13.png" alt="珞珈一号发射升空" style="width: 400px;height: 400px; ;"><br />
+					<span>2018年6月2日12点13分，武汉大学珞珈一号科学试验卫星由长征二号丁运载火箭搭载成功发射。</span>
+				
 				<div class="yearsBlock"></div><div class="yearsBlock"></div>
 				<h3>21世纪武大成就属属</h3>
 			</div>
@@ -296,7 +293,7 @@
 		<div id="sec9">
 			<div class="yearsBlock">
 				<div class="date">
-					<span class="dateNum">&nbsp;如&nbsp;今</span>
+					<span class="dateNum">如今</span>
 				</div>
 			</div>
 			<div class="yearsBlock"></div><div class="yearsBlock"></div>
@@ -319,8 +316,18 @@
 					<span class="dot" onclick="currentSlide(2)"></span> 
 					<span class="dot" onclick="currentSlide(3)"></span> 
 				</div>
-				<div class="para9">
-					文本
+				<div class="para9" style="font-size: small;">
+					<span class="para1">
+						回眸过去，筚路蓝缕，励精图治，玉汝于成，珞珈山上风云际会。<br />
+						周恩来、董必武、陈潭秋、罗荣桓曾在这里指点江山；辜鸿铭、竺可桢、李四光、闻一多、郁达夫、叶圣陶、李达等曾在这里激扬文字。<br />
+						一百多年来，武汉大学汇集了中华民族近现代史上众多的精彩华章，形成了优良的革命传统，积淀了厚重的人文底蕴，培育了“自强、弘毅、求是、拓新”的大学精神。<br />
+						2000年以来，学校获得国家自然科学奖、国家发明奖和国家科技进步奖三大奖88项，SCI论文数和国家自然科学基金项目数均位列全国高校前列。<br />
+						在教育部人文社会科学优秀成果奖评选中获奖数居全国高校前三位，国家社科基金课题、教育部社科课题均居全国高校前列。<br />
+						数十项成果获得国家“五个一”工程奖、国家图书奖、中国图书奖。学校连续十余次荣获深圳国际高新技术成果交易会优秀产品奖（成交奖）和优秀组织奖。<br />
+						<b>
+							昨日之武大历史厚重！<br />
+							今日之武大</b>
+					</span>
 				</div>
 			</div>
 		</div>
