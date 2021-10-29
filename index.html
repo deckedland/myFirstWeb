@@ -41,7 +41,16 @@
 		</div>
 		<!--Decoraton-->
 		<img src="image/dero1.png" style="position: absolute; left: 1%; top: 2%;">
-		<audio controls auto="auto" loop="loop" muted id="vid"><source src="audio/武汉大学校歌.mp3"></audio>
+		<audio autoplay="autoplay" loop="loop" id="vid"><source src="audio/武汉大学校歌.mp3"></audio>
+		<script type="text/javascript">
+			window.onload = function(){
+					 setInterval("toggleSound()",100);
+				}
+			function toggleSound() {
+						var music = document.getElementById("vid"); 
+						music.play();   
+				}
+		</script>
 	</div>
 
 	<!--Content Page-->
@@ -57,7 +66,7 @@
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 			<div class="con1">
 				<div class="img1">
-					<img src="image/img1.png" alt="《设立自强学堂片》">
+					<img src="image/img1.png" alt="《设立自强学堂片》" style="border-radius: 8px;">
 				</div>
 				<div class="para1">
 					<span>1893年11月29日，湖广总督张之洞向清朝光绪帝上奏《设立自强学堂片》。</span><br/>
