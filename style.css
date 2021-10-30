@@ -1,7 +1,7 @@
 body { 
     margin: 0px; 
     padding: 0px; 
-    font-family: museosans, helvetica, "微软正黑体", "宋体", sans-serif;
+    font-family: museosans, helvetica, "黑体", "宋体", sans-serif;
     font-weight: 300; 
     background-color: #f6f6f6; 
 }
@@ -105,7 +105,7 @@ h1 {
     height: 25px; 
     width: 100%; 
     color: #f6f6f6; 
-    font-family: museosans, helvetica, "微软正黑体", "宋体", sans-serif; 
+    font-family: museosans, helvetica, "黑体", "宋体", sans-serif; 
     font-weight: 300; 
 }
 .date { 
@@ -132,7 +132,7 @@ h1 {
 }
 .con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, #con9 {
     color: rgb(0, 0, 0);
-    font-family: museosans, helvetica, "微软正黑体", "宋体", sans-serif;
+    font-family: museosans, helvetica, "黑体", "宋体", sans-serif;
     font-size: 16px;
     font-weight: 300; 
     text-align: center;
@@ -170,30 +170,46 @@ h1 {
 }
 /*------sec4------*/
 .img4 {
-    margin-top: 25px;
-    margin-left: 70px;
+    margin: 20px 0px;
 }
 .img4-1, .img4-2, .img4-3, .img4-4 {
     float: left;
-    width: 150px;
-    height: 400px;
-    margin: 60px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    opacity: 0.8;
+    width: 200px;
+    height: 450px;
+    margin: 20px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
     overflow: hidden;
 }
+.img4-1 {
+    position: absolute;
+    left:12%;
+}
+.img4-2 {
+    position: absolute;
+    left:32%;
+}
+.img4-3 {
+    position: absolute;
+    right:32%;
+}
+.img4-4 {
+    position: absolute;
+    right:12%;
+}
 .intro1, .intro2, .intro3, .intro4 {
-    width: 150px;
+    width: 200px;
     height: auto;
     padding: 10px 0px;
+    line-height: 20px;
     text-align: center;
 }
 .img4-1:hover , .img4-2:hover , .img4-3:hover , .img4-4:hover {
-    border: 1px solid rgb(0, 0, 0, 0.7);
+    border: 1px solid rgb(0, 0, 0, 0.8);
 }
+/*-----sec5-----*/
 
 /*-----sec8----*/
-
 .card-con {
     width: 300px;
     background-color: #f6f6f6;
@@ -238,40 +254,19 @@ h1 {
 }
 /* 幻灯片 */
 .slide-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 .slide {
-    display:none;
+    display: none;
 }
 #sec9 img {
     border-radius: 8px;
-    opacity: 0.8;
+    opacity: 0.9;
     border: 1px solid #ddd;
 }
-.pre, .nex {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.3s ease;
-  border-radius: 0 3px 3px 0;
-}
-.nex {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.pre:hover, .nex:hover {
-    background-color: rgba(0,0,0,0.8);
-}
 .dot {
-    cursor:pointer;
     height: 12px;
     width: 12px;
     margin: 0 2px;
@@ -285,9 +280,10 @@ h1 {
 }
 .para9 {
     margin: 25px;
+    padding: 0 100px;
     color: rgb(0, 0, 0); 
     font-size: 20px; 
-    line-height: 22px; 
+    line-height: 24px; 
     opacity: 0.9;
     text-align: center;
 }
