@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--test test-->
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -30,18 +30,24 @@
 			<h1 style="text-shadow: 0px 0 1px "><b>武&nbsp;&nbsp;大&nbsp;&nbsp;时&nbsp;&nbsp;光&nbsp;&nbsp;机</b></h1>
 			<h1>1893 - 2021</h1>
 		</div>
-		<div id="scrollDown" style="margin-top: 190px">
+		<div id="scrollDown" style="margin-top: 190px" onclick="audioplay(); jumpTo()">
 			<div><b>进入历程</b></div>
 			<div class="scrollDownPic"></div>
 		</div>
-		<div id="goTop" style="display: inherit;">
+		<div id="goTop" style="display: inherit;" onclick="jumpTo()">
 			<div class="info" title="作者信息：By TWO瑞"></div>
   			<div class="divider"></div>
   			<div class="gotop" title="返回顶端"></div>
 		</div>
 		<!--Decoraton-->
 		<img src="image/dero1.png" style="position: absolute; left: 1%; top: 2%;">
-		<audio controls auto="auto" loop="loop"><source src="audio/武汉大学校歌.mp3"></audio>
+		<audio loop="loop" id="audio"><source src="audio/武汉大学校歌.mp3"></audio>
+		<script>
+			var music = document.getElementById("audio");
+			function audioplay() {
+				music.play();
+			}
+		</script>
 	</div>
 
 	<!--Content Page-->
@@ -57,16 +63,16 @@
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 			<div class="con1">
 				<div class="img1">
-					<img src="image/img1.png" alt="《设立自强学堂片》">
+					<img src="image/img1.png" alt="《设立自强学堂片》" style="border-radius: 10px;">
 				</div>
-				<div class="para1">
+				<div class="para1" style="margin-top: 10px;">
 					<span>1893年11月29日，湖广总督张之洞向清朝光绪帝上奏《设立自强学堂片》。</span><br/>
-					<span>其认为“<b>盖闻经国以自强为本</b>”、“<b>自强之道，以教育人才为先</b>”，故取“<span style="font-size: 20px;"><b>自强</b></span>”二字,名曰“<b>自强学堂</b>”。</span>
+					<span>其以“<b>盖闻经国以自强为本</b>”、“<b>自强之道，以教育人才为先</b>”，取“<span style="font-size: 20px;"><b>自强</b></span>”二字。</span><br/>
+					<span>而如今规模庞大的武汉大学就起源于“自强学堂”</span>
 				</div>
 			</div>
 		</div>
-
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 
 		<div id="sec2">
 			<div class="yearsBlock">
@@ -78,23 +84,23 @@
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 			<div class="con2">
 				<div class="img2">
-					<img src="image/img2.png" alt="武大老照片"><br/>
-					<span style="font-size: 14px; text-align: center;">自强学堂起设于湖北武昌三佛阁大朝街口。</span>
+					<img src="image/img2.png" alt="武大老照片" style="border-radius: 4px;"><br/>
+					<span style="font-size: 14px; text-align: center;">自强学堂起设于湖北武昌三佛阁大朝街口</span>
 				</div>
 				<div class="para2">
 				<span>
-					开办之初，设方言、算学、格致、商务四门。<br/>
-					1896年，矿务、化学并入自强学堂，后增加自然、工程教育，方言一门逐步扩大为英语、法语、德语、俄语、东文（日语）5种语言。<br/>
-					1902年10月，自强学堂迁往武昌东厂口，改名方言学堂, 课程设有地理、历史、算术、公法、交涉等。<br/>
-					1913年，北洋政府教育部成立后，决定以原方言学堂的校舍、图书、师资为基础，改建国立武昌高等师范学校。<br/>
-					1922年，改四部为8系，即教育哲学系、国文系、英语系、数学系、理化系、历史社会学系、生物系、地质系。<br/>
-					1926年，国立武昌大学与国立武昌商科大学、湖北省立医科大学、湖北省立法科大学、湖北省立文科大学、私立武昌中华大学等合并为国立武昌中山大学（又称国立第二中山大学），设有大学部和文、理、法、经、医、预6科、17个系、2个部。
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学堂开办之初，设方言、算学、格致、商务四科。<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1896年，矿务、化学并入自强学堂，后增自然、工程教育，方言逐步扩大为英语、法语、德语、俄语、东文（日语）5种语言。<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1902年，自强学堂迁往武昌东厂口，改名方言学堂, 课程设有地理、历史、算术、公法、交涉等。<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1913年，北洋政府教育部成立后，决定以原方言学堂的校舍、图书、师资为基础，改建国立武昌高等师范学校。<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1922年，改四部为8系，即教育哲学系、国文系、英语系、数学系、理化系、历史社会学系、生物系、地质系。<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1926年，与国立武昌商科大学、湖北省立医科大学、湖北省立法科大学、湖北省立文科大学、私立武昌中华大学等合并为国立武昌中山大学。
 				</span>
 				</div>
 			</div>
 		</div>
 
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 
 		<div id="sec3">
 			<div class="yearsBlock">
@@ -103,15 +109,15 @@
 					<span class="dateY">年</span>
 				</div>
 			</div>
-			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 			<div class="con3">
 				<div class="para3">
-					<span>历经传承演变，1928年，南京国民政府以原国立武昌中山大学为基础，建国立武汉大学，下设文、法、理、工4个学院，是近代中国第一批国立大学。</span>
+					<h3>历经传承演变，1928年，南京国民政府以原国立武昌中山大学为基础，建国立武汉大学，<br/>下设文、法、理、工4个学院，是近代中国第一批国立大学。</h3>
 				</div>
 			</div>
 		</div>
 
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 
 		<div id="sec4">
 			<div class="yearsBlock">
