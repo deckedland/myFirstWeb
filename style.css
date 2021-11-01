@@ -1,7 +1,7 @@
 body { 
     margin: 0px; 
     padding: 0px; 
-    font-family: museosans, helvetica, "黑体", "宋体", sans-serif;
+    font-family: museosans, helvetica, "宋体", sans-serif;
     font-weight: 300; 
     background-color: #f6f6f6; 
 }
@@ -105,7 +105,7 @@ h1 {
     height: 25px; 
     width: 100%; 
     color: #f6f6f6; 
-    font-family: museosans, helvetica, "黑体", "宋体", sans-serif; 
+    font-family: museosans, helvetica, "宋体", sans-serif; 
     font-weight: 300; 
 }
 .date { 
@@ -126,13 +126,13 @@ h1 {
     font-size: 14px; 
     opacity: 0.8; 
 }
-#sec1, #sec2，#sec3, #sec4, #sec5, #sec6, #sec7, #sec8, #sec9 { 
+#sec1, #sec2，#sec3, #sec4, #sec5, #sec6, #sec7, #sec8, #sec9, #sec10 { 
     height: auto;
     width: 100%;
 }
-.con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, #con9 {
+.con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, .con9, .con10 {
     color: rgb(0, 0, 0);
-    font-family: museosans, helvetica, "黑体", "宋体", sans-serif;
+    font-family: museosans, helvetica, "宋体", sans-serif;
     font-size: 16px;
     font-weight: 300; 
     text-align: center;
@@ -181,22 +181,6 @@ h1 {
     opacity: 0.9;
     overflow: hidden;
 }
-.img4-1 {
-    position: absolute;
-    left:12%;
-}
-.img4-2 {
-    position: absolute;
-    left:32%;
-}
-.img4-3 {
-    position: absolute;
-    right:32%;
-}
-.img4-4 {
-    position: absolute;
-    right:12%;
-}
 .intro1, .intro2, .intro3, .intro4 {
     width: 200px;
     height: auto;
@@ -209,24 +193,23 @@ h1 {
 }
 /*-----sec5-----*/
 
-/*-----sec8----*/
+/*-----sec9----*/
 .card-con {
+    float: left;
     width: 300px;
     background-color: #f6f6f6;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 200px;
+    margin: 25px 0px;
 }
 .card-text {
     text-align: center;
     padding: 10px 20px;
 } 
-.con8-1 {
+.con9-1, .con9-2{
     position: relative;
-    margin: 10px 400px;
+    margin: 10px 0px;
+    float: left;
 }
-
-/*------sec9------*/
-
 .text-box {
     position: absolute;
     top: 0;
@@ -237,7 +220,7 @@ h1 {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #f6f6f6ce;
+    background-color: #f6f6f6ea;
 
 }
 .text {
@@ -248,7 +231,7 @@ h1 {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-.con8-1:hover .text-box {
+.con9-1:hover .text-box, .con9-2:hover .text-box {
     opacity: 1;
     cursor: auto;
 }
@@ -261,7 +244,7 @@ h1 {
 .slide {
     display: none;
 }
-#sec9 img {
+#sec10 img {
     border-radius: 8px;
     opacity: 0.9;
     border: 1px solid #ddd;
@@ -278,7 +261,7 @@ h1 {
 .active, .dot:hover {
   background-color: #717171;
 }
-.para9 {
+.para10 {
     margin: 25px;
     padding: 0 100px;
     color: rgb(0, 0, 0); 
