@@ -177,7 +177,7 @@ h1 {
     width: 200px;
     height: 450px;
     margin: 20px 0px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1.4px solid rgba(0, 0, 0, 0.2);
     opacity: 0.9;
     overflow: hidden;
 }
@@ -189,7 +189,7 @@ h1 {
     text-align: center;
 }
 .img4-1:hover , .img4-2:hover , .img4-3:hover , .img4-4:hover {
-    border: 1px solid rgb(0, 0, 0, 0.8);
+    border: 1.4px solid rgba(0, 0, 0, 0.644);
 }
 /*-----sec5-----*/
 
@@ -235,7 +235,7 @@ h1 {
     opacity: 1;
     cursor: auto;
 }
-/* 幻灯片 */
+/*------sec10------s*/
 .slide-container {
     max-width: 1000px;
     position: relative;
@@ -243,6 +243,8 @@ h1 {
 }
 .slide {
     display: none;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 #sec10 img {
     border-radius: 8px;
@@ -266,17 +268,11 @@ h1 {
     padding: 0 100px;
     color: rgb(0, 0, 0); 
     font-size: 20px; 
-    line-height: 24px; 
+    line-height: 25px; 
     opacity: 0.9;
     text-align: center;
 }
 /*-----Animation-----*/
-.slide {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1s;
-    animation-name: fade;
-    animation-duration: 1s;
-}
 @keyframes fade {
     from {opacity: 0.4} 
     to {opacity: 1}

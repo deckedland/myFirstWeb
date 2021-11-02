@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>武大时光机</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
-	<script src="script.js"></script>
 	<link rel="shortcut icon" href="image/icon.ico">
 
     <!--本网页只支持pc端浏览且只在笔记本的Edge上运行过（1920*1080）,没做响应式设计
@@ -30,11 +29,11 @@
 			<h1 style="text-shadow: 0px 0 1px "><b>武&nbsp;&nbsp;大&nbsp;&nbsp;时&nbsp;&nbsp;光&nbsp;&nbsp;机</b></h1>
 			<h1>1893 - 2021</h1>
 		</div>
-		<div id="scrollDown" style="margin-top: 190px" onclick="audioplay(); jumpTo()">
+		<div id="scrollDown" style="margin-top: 190px" onclick="audioplay(); toCer()">
 			<div><b>进入历程</b></div>
 			<div class="scrollDownPic"></div>
 		</div>
-		<div id="goTop" style="display: inherit;" onclick="jumpTo()">
+		<div id="goTop" style="display: inherit;" onclick="toTop()">
 			<div class="info" title="作者信息：By TWO瑞"></div>
   			<div class="divider"></div>
   			<div class="gotop" title="返回顶端"></div>
@@ -346,7 +345,7 @@
 			<div class="yearsBlock"></div><div class="yearsBlock"></div>
 			<div class="con10">
 				<div class="slide-container">
-					<div class="slide">
+					<div class="slide" id="default">
 					  	<img src="image/img10-1.png" style="width:100%;">
 					</div>
 					<div class="slide">
@@ -355,26 +354,38 @@
 					<div class="slide">
 					  	<img src="image/img10-3.png" style="width:100%">
 					</div>
+					<div class="slide">
+						<img src="image/img10-4.png" style="width:100%">
+				 	</div>
+					<div class="slide">
+						<img src="image/img10-5.png" style="width:100%">
+					</div>
 				</div> 
 				<div style="text-align:center">
+					<span class="dot"></span> 
+					<span class="dot"></span> 
 					<span class="dot"></span> 
 					<span class="dot"></span> 
 					<span class="dot"></span> 
 				</div>
 				<div class="para10">
 						回眸过去，筚路蓝缕，励精图治，玉汝于成，珞珈山上风云际会。<br/>
-						董必武、陈潭秋曾在这里指点江山；李四光、闻一多、郁达夫、叶圣陶等曾在这里激扬文字。<br/>
-						一百多年来，武汉大学汇集了中华民族近现代史上众多的精彩华章，形成了优良的革命传统，积淀了厚重的人文底蕴，培育了“自强、弘毅、求是、拓新”的大学精神。<br/>
+						董必武、陈潭秋曾在这里指点江山；李四光、闻一多、郁达夫、叶圣陶等曾在这里激扬文字。<br/><br/>
+						一百多年来，武汉大学汇集了中华民族近现代史上众多的精彩华章，形成了优良的革命传统，积淀了厚重的人文底蕴，培育了“自强、弘毅、求是、拓新”的大学精神。武大学生也在这得到充足发展，成为“德智体美劳”全面发展的新时代人才，为国家、为社会贡献出自己的一份力量。<br/>
 						<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-						<h2 style="line-height:40px; color: rgba(0, 0, 0, 0.801);">百余年的风雨，百余年的砥砺，百余年的辉煌。<br/>昨日之武大历史厚重！<br/>今日之武大熠熠生辉！</h2>
+						<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+						<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+						<h2 style="line-height:40px;color: rgb(0, 0, 0);text-shadow: 0px 0 0.5px;">百余年的风雨，百余年的砥砺，百余年的辉煌。<br/>昨日之武大历史厚重！<br/>今日之武大熠熠生辉！</h2>
 					</span>
 				</div>
 			</div>
 		</div>
 
-		
 		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 </body>
+
+	<script src="script.js"></script>
+
 </html>
