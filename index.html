@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>武大时光机</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>武大时光机</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="image/icon.ico">
 
-    <!--本网页只支持pc端浏览且只在笔记本的Edge上运行过（1920*1080）,没做响应式设计
+	<!--本网页只支持pc端浏览且只在笔记本的Edge上运行过（1920*1080）,没做响应式设计
 		(条件有限QAQ)
 	-->
 
@@ -33,14 +34,16 @@
 			<div><b>进入历程</b></div>
 			<div class="scrollDownPic"></div>
 		</div>
-		<div id="goTop" style="display: inherit;" onclick="toTop()">
+		<div id="goTop" style="display: inherit;">
 			<div class="info" title="作者信息：By TWO瑞"></div>
-  			<div class="divider"></div>
-  			<div class="gotop" title="返回顶端"></div>
+			<div class="divider"></div>
+			<div class="gotop" title="返回顶端" onclick="toTop()"></div>
 		</div>
 		<!--Decoraton-->
 		<img src="image/dero1.png" style="position: absolute; left: 1%; top: 2%;">
-		<audio loop="loop" id="audio"><source src="audio/武汉大学校歌.mp3"></audio>
+		<audio loop="loop" id="audio">
+			<source src="audio/武汉大学校歌.mp3">
+		</audio>
 		<script>
 			var music = document.getElementById("audio");
 			function audioplay() {
@@ -60,17 +63,19 @@
 				</div>
 			</div>
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-			<div class="con1">
+			<div class="con">
 				<div class="img1">
 					<img src="image/img1.png" alt="《设立自强学堂片》" style="border-radius: 10px;">
 				</div>
-				<div class="para1" style="margin-top: 10px;">
-					<span>1893年11月29日，湖广总督张之洞向清朝光绪帝上奏《设立自强学堂片》。</span><br/>
-					<span>其以“<b>盖闻经国以自强为本</b>”、“<b>自强之道，以教育人才为先</b>”，取“<span style="font-size: 20px;"><b>自强</b></span>”二字。</span><br/>
+				<div class="para1" style="margin-top: 20px;">
+					<span>1893年11月29日，湖广总督张之洞向清朝光绪帝上奏《设立自强学堂片》。</span><br />
+					<span>其以“<b>盖闻经国以自强为本</b>”、“<b>自强之道，以教育人才为先</b>”，取“<span
+							style="font-size: 20px;"><b>自强</b></span>”二字。</span><br />
 					<span>而如今规模庞大的武汉大学就起源于“自强学堂”</span>
 				</div>
 			</div>
 		</div>
+
 		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 
 		<div id="sec2">
@@ -81,20 +86,20 @@
 				</div>
 			</div>
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-			<div class="con2">
+			<div class="con">
 				<div class="img2">
 					<img src="image/img2.png" alt="武大老照片" style="border-radius: 4px;"><br/>
 					<span style="font-size: 14px; text-align: center;">自强学堂起设于湖北武昌三佛阁大朝街口</span>
 				</div>
 				<div class="para2">
-				<span>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学堂开办之初，设方言、算学、格致、商务四科。<br/>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1896年，矿务、化学并入自强学堂，后增自然、工程教育，方言逐步扩大为英语、法语、德语、俄语、东文（日语）5种语言。<br/>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1902年，自强学堂迁往武昌东厂口，改名方言学堂, 课程设有地理、历史、算术、公法、交涉等。<br/>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1913年，北洋政府教育部成立后，决定以原方言学堂的校舍、图书、师资为基础，改建国立武昌高等师范学校。<br/>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1922年，改四部为8系，即教育哲学系、国文系、英语系、数学系、理化系、历史社会学系、生物系、地质系。<br/>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1926年，与国立武昌商科大学、湖北省立医科大学、湖北省立法科大学、湖北省立文科大学、私立武昌中华大学等合并为国立武昌中山大学。
-				</span>
+					<span>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学堂开办之初，设方言、算学、格致、商务四科。<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1896年，矿务、化学并入自强学堂，后增自然、工程教育，方言逐步扩大为英语、法语、德语、俄语、东文（日语）5种语言。<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1902年，自强学堂迁往武昌东厂口，改名方言学堂, 课程设有地理、历史、算术、公法、交涉等。<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1913年，北洋政府教育部成立后，决定以原方言学堂的校舍、图书、师资为基础，改建国立武昌高等师范学校。<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1922年，改四部为8系，即教育哲学系、国文系、英语系、数学系、理化系、历史社会学系、生物系、地质系。<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1926年，与国立武昌商科大学、湖北省立医科大学、湖北省立法科大学、湖北省立文科大学、私立武昌中华大学等合并为国立武昌中山大学。
+					</span>
 				</div>
 			</div>
 		</div>
@@ -109,9 +114,9 @@
 				</div>
 			</div>
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-			<div class="con3">
+			<div class="con">
 				<div style="line-height: 25px;">
-					<h3>历经传承演变，1928年，南京国民政府以原国立武昌中山大学为基础，建国立武汉大学，<br/>下设文、法、理、工4个学院，是近代中国第一批国立大学。</h3>
+					<h3>历经传承演变，1928年，南京国民政府以原国立武昌中山大学为基础，建国立武汉大学，<br />下设文、法、理、工4个学院，是近代中国第一批国立大学。</h3>
 				</div>
 			</div>
 		</div>
@@ -125,11 +130,12 @@
 					<span class="dateY">年</span>
 				</div>
 			</div>
-			<div class="yearsBlock"></div><div class="yearsBlock"></div>
-			<div class="con4">
-				<div class="para4">
-					1929年2月，法学家王世杰成为国立武汉大学首位正式校长。<br/>
-					其聘皮宗石为法学院院长，闻一多为文学院院长、王星拱为理学院院长、石瑛为工学院院长，提出要把学校办成<br/>拥有文、法、理、工、农、医6大学院的万人大学。
+			<div class="yearsBlock"></div>
+			<div class="yearsBlock"></div>
+			<div class="con">
+				<div class="para4" style="line-height: 22px;">
+					1929年2月，法学家王世杰成为国立武汉大学首位正式校长。<br />
+					其聘皮宗石为法学院院长，闻一多为文学院院长、王星拱为理学院院长、石瑛为工学院院长，<br/>提出要把学校办成拥有文、法、理、工、农、医6大学院的万人大学。
 				</div>
 				<div class="img4">
 					<div class="img4-1" style="position: absolute; left:12%;">
@@ -162,16 +168,15 @@
 					</div>
 				</div>
 			</div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 		</div>
 
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div>
+
+		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 
 		<div id="sec5">
 			<div class="yearsBlock">
@@ -180,23 +185,53 @@
 				</div>
 			</div>
 			<div class="yearsBlock"></div><div class="yearsBlock"></div>
-			<div class="con5">
-				<div class="con5-1">
-				<span>1931年，“九一八”事变后武汉大学师生群情激愤，各种抗日救亡运动在武汉大学校园里风起云涌。</span>
-				<!-- <img src="image/img5-1.png" alt="武汉大学师生进行宣传培训">武汉大学师生深入开展对日研究，并走上街头进行鼓动宣传和培训等工作。
-				<img src="image/img5-2.png" alt="走向抗战最前沿">组成“抗日铁血团”北上，走向抗战最前沿 -->
+			<div class="con">
+				<h3 class="para5-1" style="line-height: 25px; margin: 0 200px;">
+					1931年“九一八事变”发生爆发之后，各种抗日救亡运动在武大校园里风起云涌。<br/>1938-1946年，武汉大学西迁四川乐山流亡办学。<br/>
+					在中华民族救亡图存的宏阔背景下，武大师生以超迈、坚韧的精神书写了苦难而又辉煌的历史篇章，<br/>留下了一所大学永不磨灭的文化抗战记忆。
+				</h3>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="img5-1" style="position: absolute; left: 10%;">
+					<img src="image/img5-1.png" alt="武汉大学师生进行宣传培训" style="border-radius: 4px;"><br/>
+					<span>武汉大学师生深入开展对日研究，<br/>并走上街头进行鼓动宣传和培训等工作</span>
 				</div>
-				<div class="con5-2">
-					<span>1937年8月19日，国民政府教育部长王世杰签发《战区内学校处置办法》。此后，69所高校内迁。其中，迁往四川的有48所之多。<br />
-						1938年4月，武汉被日寇三面包围，武大师生及所有图书仪器设备，从武汉出发，走水路经宜昌、巴东、万州、重庆，抵达乐山，并在此度过了8年时光。<br />
-						乐山时期，武大在极其艰苦的条件下，迎难而上，坚持教学与科研工作的正常开展，在最困难的环境里创造了历史上最辉煌的成就。<br />
-						此时武大集聚了高水平的教授110多人，数量位居全国第二，师资力量仅次于西南联大。<br />
-					</span>
+				<div class="img5-2" style="position: absolute; right: 10%;">
+					<img src="image/img5-2.png" alt="走向抗战最前沿" style="border-radius: 4px;"><br/>
+					<span>武大学生组成“抗日铁血团”北上，走向抗战最前沿</span>
 				</div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="img5-3" style="position: absolute; left: 1%;">
+					<img src="image/img5-3.png" alt="乐山时期的武大学生" style="border-radius: 4px;"><br/>
+					<span style="font-size: 14px; text-align: center;">武汉大学乐山斑竹湾宿舍第10斋同学合影</span>
+				</div>
+				<div style="position: absolute; left: 50%;">
+					<div class="para5-2">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1937年8月19日，国民政府教育部长王世杰签发了《战区内学校处置办法》。<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1938年4月，武汉被日寇三面包围，武大师生及所有图书仪器设备，从武汉出发，走水路经宜昌、巴东、万州、重庆，抵达乐山，并在此度过了8年时光。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乐山时期，武大在极其艰苦的条件下，迎难而上，坚持教学与科研工作的正常开展，在最困难的环境里创造了历史上最辉煌的成就。<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此时武大集聚了高水平的教授110多人，数量位居全国第二，师资力量仅次于西南联大。
+					</div>
+				</div>
+				<div class="img5-4" style="position: absolute; right: 1%;">
+					<img src=" image/img5-4.png" alt="乐山武大旧址" style="border-radius: 4px;"><br/>
+					<span style="font-size: 14px; text-align: center;">武大乐山时期旧址</span>
+				</div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<h3 class="para5-3" style="line-height: 25px; margin: 0 200px;">
+					最终，于1946年10月，武汉大学师生经历了八载炼狱，八载辉煌，终于以胜利凯旋的姿态重回珞珈山。
+				</h3>
 			</div>
 		</div>
 
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 
 		<div id="sec6">
 			<div class="yearsBlock">
@@ -206,19 +241,43 @@
 				</div>
 			</div>
 			<div class="yearsBlock"></div><div class="yearsBlock"></div>
-			<div class="con6">
+			<div class="con">
 				<div class="img6">
-					<img src="image/img11.png" alt="解放军进入武汉市区" style="border-radius: 8px"><br/>
-					<span style="font-size: 14px; text-align: center;">1949年5月，解放军进入武汉市区</span>
+					<div class="img6-1">
+						<img src="image/img6-1.png" alt="解放军进入武汉市区" style="border-radius: 8px"><br/>
+						<span style="font-size: 14px; text-align: center;">1949年5月，解放军进入武汉市区</span>
+					</div>
+					<div class="yearsBlock"></div>
+					<div class="img6-2">
+						<img src="image/img6-2.png" alt="中国共产党接管武大的通告" style="border-radius: 8px;"><br/>
+						<span style="font-size: 14px; text-align: center;">中国共产党接管武大的通告</span>
+					</div>
 				</div>
-				<div class="yearsBlock"></div>
 				<div class="para6">
-					<h3>1949年武汉解放，国立武汉大学被中国共产党接管并更名为武汉大学，继续办学。</h3>
+						<h3>《解放军到武汉后》</h3>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1949年4月，武汉百姓中传递着一个惊人的消息：解放区的报纸已经进城了，武汉马上就要解放了。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;老百姓口中所说的“解放区报纸”就是当时武大的校刊《武大新闻》，在“旧金山广播、伦敦广播”之类电头后面，《武大新闻》报道的全是关于解放区和解放军最新战况，令人耳目一新。
+						据解放时期武汉大学学生党总支书记吴仲炎回忆，解放前夕的武汉，谣言满天飞，人心动荡。为消除人民的疑虑，武大党总支通过学生自治会出面，邀请湖北爱国人士李书城先生来校讲述赴中原解放区的观感。
+						国民党反动当局玩弄“和谈”骗局时，国民党华中司令长官白崇禧邀李书城作为“和谈”代表，到中原解放区与共产党谈判，李亲眼看到了解放区欣欣向荣的景象。
+						“在那边，妇女地位高，活动多，共产党里面有妇女部，男女一律平等……”李书城用亲身经历让人们看到了一个真实的、朝气蓬勃的解放区，对稳定人心起到了十分积极的作用。
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;与此同时，武大地下党组织还在学校开展多种多样的宣传活动，组织师生扭秧歌，传唱革命歌曲，寓政治教育于文娱活动之中。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1949年3月，学生自治会专门建了一间广播室，每天早晨全校师生做早操时，校园广播里就会响起“东方红，太阳升”的嘹亮歌声。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1949年4月份，按照地下市委命令，吴仲炎组织武大地下党对校产和敌我情况进行全面调查，准备接管学校。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同时发动学生自治会储备粮食，把学校的金圆券全部集中起来换成银元以备不时之需，在校内发行了货币代用券，一时间武汉大学成了白色恐怖下的安全岛，周围市民亲切地称之为“小解放区”。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1949年5月17日，按照事先安排，武大师生将集体列队上街欢迎解放军进城。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当天上午，吴仲炎和几名骨干成员正在发动大家写欢迎人民解放军进城的标语，一名同学突然跑进来报喜：解放军已到了武豹路。
+						解放军来了。全校沸腾了，师生们放下了手中的工作，跑到街上，一边扭着大秧歌，一边欢呼着迎接亲人解放军……
 				</div>
 			</div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 		</div>
 
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 
 		<div id="sec7">
 			<div class="yearsBlock">
@@ -227,20 +286,19 @@
 				</div>
 			</div>
 			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-			<div class="con7">
-				<div class="img7">
-					
+			<div class="con">
+				<div>
+					<img src="image/img7.png" alt="院系调整示意图" style="height:100%;">
 				</div>
 				<div class="para7">
-					<span>1950年代初期，新成立的中华人民共和国政府借鉴苏联的社会主义教育模式，对国内高校进行史无前例的大规模院系调整。<br />
-						院系调整前武汉大学有6个学院21个系，院系调整后只有文理科目的中文、历史、政治、数学、物理、化学、生物共7个系保留建制<br />
-						此后数十年，武汉大学逐渐恢复和增设院系专业。<br />
-					</span>
+				1950年代初期，新成立的中华人民共和国政府借鉴苏联的社会主义教育模式，对国内高校进行史无前例的大规模院系调整。<br/>
+				院系调整前武汉大学有6个学院21个系，院系调整后只有文理科目的中文、历史、政治、数学、物理、化学、生物共7个系保留建制<br/>
+				此后数十年，武汉大学逐渐恢复和增设院系专业。
 				</div>
 			</div>
 		</div>
 
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 
 		<div id="sec8">
 			<div class="yearsBlock">
@@ -249,10 +307,14 @@
 					<span class="dateY">年</span>
 				</div>
 			</div>
-			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-			<div class="con8">
+			<div class="yearsBlock"></div>
+			<div class="yearsBlock"></div>
+			<div class="yearsBlock"></div>
+			<div class="yearsBlock"></div>
+			<div class="con">
 				<div style="line-height: 25px;">
-					<h3>2000年，武汉大学与武汉水利电力大学、武汉测绘科技大学、湖北医科大学四校正式合并组建新的武汉大学。<br/>2001年，合并后的武汉大学分为人文科学、社会科学、理学、工学、信息科学、医学六大学部，形成了我们如今的武大。</h3>
+					<h3>2000年，武汉大学与武汉水利电力大学、武汉测绘科技大学、湖北医科大学四校正式合并组建新的武汉大学。<br />2001年，合并后的武汉大学分为人文科学、社会科学、理学、工学、信息科学、医学六大学部，形成了我们如今的武大。
+					</h3>
 				</div>
 			</div>
 		</div>
@@ -266,7 +328,7 @@
 				</div>
 			</div>
 			<div class="yearsBlock"></div>
-			<div class="con9">
+			<div class="con">
 				<h3 style="padding: 20px 100px;">
 					进入21世纪，国内外领导人仍都十分重视武大的发展
 				</h3>
@@ -290,20 +352,21 @@
 						<span>英国首相特雷莎·梅对武汉大学进行访问</span>
 					</div>
 				</div>
-				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-				<div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div>
 				<div style="font-size: 18px; line-height: 22px;">
-					<span style="font-size: 20px;"><b>合校二十多年来，学校综合实力和核心竞争力不断提升。</b></span><br/><br/>
-					2020年，学校在软科世界大学学术排名中位列第199位，QS世界大学排名中位列第246位，泰晤士高等教育世界大学排名中位列351-400位。<br/>
-					学校获国家自然科学奖、国家发明奖和国家科技进步奖三大奖共88项，SCI论文数和国家自然科学基金项目数均位列全国高校前列。<br/>
-					在教育部人文社会科学优秀成果奖评选中获奖数居全国高校前三位，国家社科基金课题、教育部社科课题均居全国高校前列。<br/>
+					<span style="font-size: 20px;"><b>合校二十多年来，学校综合实力和核心竞争力不断提升。</b></span><br /><br />
+					2020年，学校在软科世界大学学术排名中位列第199位，QS世界大学排名中位列第246位，泰晤士高等教育世界大学排名中位列351-400位。<br />
+					学校获国家自然科学奖、国家发明奖和国家科技进步奖三大奖共88项，SCI论文数和国家自然科学基金项目数均位列全国高校前列。<br />
+					在教育部人文社会科学优秀成果奖评选中获奖数居全国高校前三位，国家社科基金课题、教育部社科课题均居全国高校前列。<br />
 					数十项成果获得国家“五个一”工程奖、国家图书奖等,连续十余次荣获深圳国际高新技术成果交易会优秀产品奖和优秀组织奖。
 				</div>
-				<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+				<div class="yearsBlock"></div>
+				<div class="yearsBlock"></div>
+				<div class="yearsBlock"></div>
 				<div style="position: absolute; left: 12%;">
 					<div class="con9-1">
 						<img src="image/img9-4.png" alt="《Science》武大125周年校庆版" style="border-radius: 4px;">
@@ -325,16 +388,15 @@
 					</div>
 				</div>
 			</div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 		</div>
 
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+
+		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
 
 		<div id="sec10">
 			<div class="yearsBlock">
@@ -342,48 +404,52 @@
 					<span class="dateNum">&nbsp;如今</span>
 				</div>
 			</div>
-			<div class="yearsBlock"></div><div class="yearsBlock"></div>
-			<div class="con10">
+			<div class="yearsBlock"></div>
+			<div class="yearsBlock"></div>
+			<div class="con">
 				<div class="slide-container">
 					<div class="slide" id="default">
-					  	<img src="image/img10-1.png" style="width:100%;">
+						<img src="image/img10-1.png" style="width:100%;">
 					</div>
 					<div class="slide">
-					  	<img src="image/img10-2.png" style="width:100%">
+						<img src="image/img10-2.png" style="width:100%">
 					</div>
 					<div class="slide">
-					  	<img src="image/img10-3.png" style="width:100%">
+						<img src="image/img10-3.png" style="width:100%">
 					</div>
 					<div class="slide">
 						<img src="image/img10-4.png" style="width:100%">
-				 	</div>
+					</div>
 					<div class="slide">
 						<img src="image/img10-5.png" style="width:100%">
 					</div>
-				</div> 
+				</div>
 				<div style="text-align:center">
-					<span class="dot"></span> 
-					<span class="dot"></span> 
-					<span class="dot"></span> 
-					<span class="dot"></span> 
-					<span class="dot"></span> 
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
 				</div>
 				<div class="para10">
-						回眸过去，筚路蓝缕，励精图治，玉汝于成，珞珈山上风云际会。<br/>
-						董必武、陈潭秋曾在这里指点江山；李四光、闻一多、郁达夫、叶圣陶等曾在这里激扬文字。<br/><br/>
-						一百多年来，武汉大学汇集了中华民族近现代史上众多的精彩华章，形成了优良的革命传统，积淀了厚重的人文底蕴，培育了“自强、弘毅、求是、拓新”的大学精神。武大学生也在这得到充足发展，成为“德智体美劳”全面发展的新时代人才，为国家、为社会贡献出自己的一份力量。<br/>
-						<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-						<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-						<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-						<h2 style="line-height:40px;color: rgb(0, 0, 0);text-shadow: 0px 0 0.5px;">百余年的风雨，百余年的砥砺，百余年的辉煌。<br/>昨日之武大历史厚重！<br/>今日之武大熠熠生辉！</h2>
+					回眸过去，筚路蓝缕，励精图治，玉汝于成，珞珈山上风云际会。<br />
+					董必武、陈潭秋曾在这里指点江山；李四光、闻一多、郁达夫、叶圣陶等曾在这里激扬文字。<br /><br />
+					一百多年来，武汉大学汇集了中华民族近现代史上众多的精彩华章，形成了优良的革命传统，积淀了厚重的人文底蕴，培育了“自强、弘毅、求是、拓新”的大学精神。武大学生也在这得到充足发展，成为“德智体美劳”全面发展的新时代人才，为国家、为社会贡献出自己的一份力量。<br />
+					<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+					<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+					<div class="yearsBlock"></div>
+					<h2 style="line-height:40px;color: rgb(0, 0, 0);text-shadow: 0px 0 0.5px;">
+						百余年的风雨，百余年的砥砺，百余年的辉煌。<br />昨日之武大历史厚重！<br />今日之武大熠熠生辉！</h2>
 					</span>
 				</div>
 			</div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+			<div class="yearsBlock"></div><div class="yearsBlock"></div>
 		</div>
 
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
-		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+		<div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div><div class="yearsBlock"></div>
+
+	</div>
 </body>
 
 	<script src="script.js"></script>

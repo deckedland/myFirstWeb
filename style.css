@@ -1,9 +1,10 @@
 body { 
     margin: 0px; 
     padding: 0px; 
-    font-family: museosans, helvetica, "宋体", sans-serif;
+    font-family: museosans, helvetica, "微软雅黑", sans-serif;
     font-weight: 300; 
     background-color: #f6f6f6; 
+    animation: fade-in 1s;
 }
 
 /*----------StartPage----------*/
@@ -102,10 +103,11 @@ h1 {
     padding-bottom: 30px; 
 }
 .yearsBlock { 
+
     height: 25px; 
     width: 100%; 
     color: #f6f6f6; 
-    font-family: museosans, helvetica, "宋体", sans-serif; 
+    font-family: museosans, helvetica, "微软雅黑", sans-serif; 
     font-weight: 300; 
 }
 .date { 
@@ -130,43 +132,41 @@ h1 {
     height: auto;
     width: 100%;
 }
-.con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, .con9, .con10 {
+.con {
     color: rgb(0, 0, 0);
-    font-family: museosans, helvetica, "宋体", sans-serif;
+    font-family: museosans, helvetica, "微软雅黑", sans-serif;
     font-size: 16px;
     font-weight: 300; 
     text-align: center;
+    opacity: 0.9; 
 }
 /*----sec1----*/
 .img1 {
     display: inline-block;
     height: 100%; 
     width: 100%;
-    opacity: 0.9;
 }
 .para1 {
     color: rgb(0, 0, 0); 
     font-size: 16px; 
     line-height: 18px; 
-    opacity: 0.9;
 }
 /*----sec2----*/
 .img2 {
     position: relative;
-    top: -20px;
+    top: -10px;
     float: right;
     margin-right: 10px;
     height: 400px; 
     width: 600px;
-    opacity: 0.9;
 }
 .para2 {
+
     margin-left: 100px;
     color: rgb(0, 0, 0); 
     font-size: 16px; 
     line-height: 22px;
     text-align: initial; 
-    opacity: 0.9;
 }
 /*------sec4------*/
 .img4 {
@@ -174,15 +174,14 @@ h1 {
 }
 .img4-1, .img4-2, .img4-3, .img4-4 {
     float: left;
-    width: 200px;
+    width: 180px;
     height: 450px;
     margin: 20px 0px;
     border: 1.4px solid rgba(0, 0, 0, 0.2);
-    opacity: 0.9;
     overflow: hidden;
 }
 .intro1, .intro2, .intro3, .intro4 {
-    width: 200px;
+    width: 180px;
     height: auto;
     padding: 10px 0px;
     line-height: 20px;
@@ -192,7 +191,32 @@ h1 {
     border: 1.4px solid rgba(0, 0, 0, 0.644);
 }
 /*-----sec5-----*/
-
+.img5-1, .img5-2, .img5-3, .img5-4 {
+    float: left;
+    margin: 20px;
+}
+.para5-2 {
+    position: relative;
+    left: -50%;
+    top: 20px;
+    width: 550px;
+    line-height: 22px;
+    text-align: initial;
+}
+.img5-1:hover, .img5-2:hover, .img5-3:hover, .img5-4:hover{
+    transform: scale(1.1);
+}
+/*-----sec6----*/
+.img6 {
+    float: left;
+    margin-left: 60px;
+}
+.para6 {
+    float: left;
+    text-align: initial;
+    width: 700px;
+    margin: 50px;
+}
 /*-----sec9----*/
 .card-con {
     float: left;
@@ -248,7 +272,6 @@ h1 {
 }
 #sec10 img {
     border-radius: 8px;
-    opacity: 0.9;
     border: 1px solid #ddd;
 }
 .dot {
@@ -269,11 +292,27 @@ h1 {
     color: rgb(0, 0, 0); 
     font-size: 20px; 
     line-height: 25px; 
-    opacity: 0.9;
     text-align: center;
 }
 /*-----Animation-----*/
 @keyframes fade {
     from {opacity: 0.4} 
     to {opacity: 1}
+}
+@keyframes fade-in {  
+    0% {opacity: 0;} 
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.active1 {
+    transform: scale(0.8);
+    opacity: 0.5;
+}
+.active2 {
+    transform: scale(0.9);
+    opacity: 0.7;
+}
+.active3 {
+    transform: scale(1);
+    opacity: 0.9;
 }
